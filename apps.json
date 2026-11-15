@@ -1,0 +1,118 @@
+{
+  "_comment": "Allowlist of apps Jarvis may open. Keys are what you say; values are per-OS launch targets. Add your own. Jarvis will NEVER launch anything not listed here. Values are passed as a single argv entry (no shell), so no injection is possible.",
+
+  "chrome": {
+    "aliases": ["google chrome", "browser"],
+    "Windows": "chrome",
+    "Darwin": "Google Chrome",
+    "Linux": "google-chrome"
+  },
+  "edge": {
+    "aliases": ["microsoft edge"],
+    "Windows": "msedge",
+    "Darwin": "Microsoft Edge",
+    "Linux": "microsoft-edge"
+  },
+  "firefox": {
+    "Windows": "firefox",
+    "Darwin": "Firefox",
+    "Linux": "firefox"
+  },
+  "notepad": {
+    "aliases": ["text editor", "notes app"],
+    "Windows": "notepad",
+    "Darwin": "TextEdit",
+    "Linux": "gedit"
+  },
+  "calculator": {
+    "aliases": ["calc"],
+    "Windows": "calc",
+    "Darwin": "Calculator",
+    "Linux": "gnome-calculator"
+  },
+  "vscode": {
+    "aliases": ["vs code", "visual studio code", "code"],
+    "Windows": "code",
+    "Darwin": "Visual Studio Code",
+    "Linux": "code"
+  },
+  "terminal": {
+    "aliases": ["command prompt", "cmd", "powershell", "console"],
+    "Windows": "cmd",
+    "Darwin": "Terminal",
+    "Linux": "gnome-terminal"
+  },
+  "explorer": {
+    "aliases": ["file explorer", "files", "finder", "file manager"],
+    "Windows": "explorer",
+    "Darwin": "Finder",
+    "Linux": "nautilus"
+  },
+  "spotify": {
+    "Windows": "spotify",
+    "Darwin": "Spotify",
+    "Linux": "spotify"
+  },
+  "vlc": {
+    "aliases": ["media player", "video player"],
+    "Windows": "vlc",
+    "Darwin": "VLC",
+    "Linux": "vlc"
+  },
+  "word": {
+    "aliases": ["microsoft word", "ms word"],
+    "Windows": "winword",
+    "Darwin": "Microsoft Word",
+    "Linux": "libreoffice --writer"
+  },
+  "excel": {
+    "aliases": ["microsoft excel", "ms excel", "spreadsheet"],
+    "Windows": "excel",
+    "Darwin": "Microsoft Excel",
+    "Linux": "libreoffice --calc"
+  },
+  "powerpoint": {
+    "aliases": ["ppt", "slides"],
+    "Windows": "powerpnt",
+    "Darwin": "Microsoft PowerPoint",
+    "Linux": "libreoffice --impress"
+  },
+  "settings": {
+    "aliases": ["system settings", "preferences", "control panel"],
+    "Windows": "ms-settings:",
+    "Darwin": "System Settings",
+    "Linux": "gnome-control-center"
+  },
+  "camera": {
+    "Windows": "microsoft.windows.camera:",
+    "Darwin": "Photo Booth",
+    "Linux": "cheese"
+  },
+  "paint": {
+    "aliases": ["mspaint"],
+    "Windows": "mspaint",
+    "Darwin": "Preview",
+    "Linux": "gimp"
+  },
+  "task manager": {
+    "aliases": ["activity monitor", "system monitor"],
+    "Windows": "taskmgr",
+    "Darwin": "Activity Monitor",
+    "Linux": "gnome-system-monitor"
+  },
+  "whatsapp": {
+    "Windows": "whatsapp:",
+    "Darwin": "WhatsApp",
+    "Linux": "whatsapp-desktop"
+  },
+  "telegram": {
+    "Windows": "tg:",
+    "Darwin": "Telegram",
+    "Linux": "telegram-desktop"
+  },
+  "discord": {
+    "Windows": "discord:",
+    "Darwin": "Discord",
+    "Linux": "discord"
+  }
+}

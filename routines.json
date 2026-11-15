@@ -1,0 +1,8 @@
+{
+  "_comment": "Routines are lists of ordinary Jarvis commands. Say 'start work mode' or 'run routine focus'. Every step goes through the same safety checks as a typed command.",
+  "work mode": ["open vscode", "open chrome", "weather", "news"],
+  "focus mode": ["volume mute", "set a timer for 25 minutes for focus session", "note focus session started"],
+  "chill mode": ["open spotify", "volume 40"],
+  "good morning": ["weather", "news", "list reminders"],
+  "good night": ["list reminders", "lock screen"]
+}

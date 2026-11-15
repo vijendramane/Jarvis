@@ -1,0 +1,17 @@
+# Core Jarvis has ZERO required dependencies (pure standard library).
+# The packages below are optional extras:
+
+# Voice output (offline TTS)
+pyttsx3>=2.90
+
+# Voice input (free Google web recognizer, no key) — needs a microphone
+SpeechRecognition>=3.10
+PyAudio>=0.2.14          # Windows: pip install pipwin && pipwin install pyaudio  (or use a wheel)
+                         # macOS:   brew install portaudio && pip install pyaudio
+                         # Linux:   sudo apt install portaudio19-dev && pip install pyaudio
+
+# Richer "system status" (CPU / RAM / battery)
+psutil>=5.9
+
+# Silent screenshots on Windows/macOS (otherwise Jarvis opens the OS snipping tool)
+pillow>=10.0
