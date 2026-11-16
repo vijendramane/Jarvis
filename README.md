@@ -1,6 +1,6 @@
 # Jarvis v2 — your secure, AI-powered desktop assistant
 
-Open apps, search, control volume & music, get weather/news/currency, set reminders,
+Open apps, search, control volume & music, get weather/news/currency, set reminders, 
 remember things about you, run routines and chat — by typing, by voice, or in a chat window —
 using **only free, keyless APIs** (or none at all). Windows, macOS and Linux.
 
