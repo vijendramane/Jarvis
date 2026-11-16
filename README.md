@@ -4,7 +4,7 @@ Open apps, search, control volume & music, get weather/news/currency, set remind
 remember things about you, run routines and chat — by typing, by voice, or in a chat window —
 using **only free, keyless APIs** (or none at all). Windows, macOS and Linux.
 
-```
+``` 
 you> good morning
 Jarvis: Pune, IN: 24°C, mainly clear, feels like 25°, humidity 61%, wind 8 km/h. Today 19–31°C, 5% chance of rain.
 Jarvis: Top headlines: … • … • …
