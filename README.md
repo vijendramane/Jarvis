@@ -10,7 +10,7 @@ Jarvis: Pune, IN: 24°C, mainly clear, feels like 25°, humidity 61%, wind 8 km/
 Jarvis: Top headlines: … • … • …
 Jarvis: 2 reminders: call mom (today at 5:00 PM); pay electricity bill (tomorrow at 9:00 AM)
 you> open chrome and set volume to 40 then remind me in 25 minutes to stretch
-Jarvis: Opening chrome.  Volume set to 40%.  I'll remind you to stretch in 25 minutes.
+Jarvis: Opening chrome.  Volume set to 40%.  I'll remind you to stretch in 25 minutes. 
 ```
 
 ---
