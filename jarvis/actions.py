@@ -12,7 +12,7 @@ Rules enforced by ``SafetyGate``:
   * URLs must be http(s) only 
   * "risky" actions (closing apps, locking screen) require confirmation
   * nothing is ever passed through a shell with user-controlled text
-"""
+""" 
 
 from __future__ import annotations
 
