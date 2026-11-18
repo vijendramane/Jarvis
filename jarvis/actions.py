@@ -3,7 +3,7 @@
 Every capability Jarvis has lives here as a small, explicit function.
 The LLM (or the offline parser) can only pick from ``REGISTRY``; it
 cannot invent new commands, run shell strings, touch arbitrary files,
-or shut the machine down.
+or shut the machine down. 
 
 Rules enforced by ``SafetyGate``:
   * action must exist in REGISTRY
