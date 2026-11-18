@@ -9,7 +9,7 @@ Rules enforced by ``SafetyGate``:
   * action must exist in REGISTRY 
   * parameters are type-checked and length-limited
   * apps must be in apps.json (the allowlist)
-  * URLs must be http(s) only
+  * URLs must be http(s) only 
   * "risky" actions (closing apps, locking screen) require confirmation
   * nothing is ever passed through a shell with user-controlled text
 """
