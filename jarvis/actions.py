@@ -6,7 +6,7 @@ cannot invent new commands, run shell strings, touch arbitrary files,
 or shut the machine down. 
 
 Rules enforced by ``SafetyGate``:
-  * action must exist in REGISTRY
+  * action must exist in REGISTRY 
   * parameters are type-checked and length-limited
   * apps must be in apps.json (the allowlist)
   * URLs must be http(s) only
